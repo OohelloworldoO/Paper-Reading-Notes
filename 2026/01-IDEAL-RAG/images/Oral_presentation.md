@@ -12,3 +12,5 @@
 ## 圖例
 
 ![](./Parametric%20Knowledge.png)
+
+Parametric knowledge Extraction就是儲存在模型參數中的知識，可以理解成模型訓練時能夠回想起的內容
