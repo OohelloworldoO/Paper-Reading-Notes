@@ -1,4 +1,6 @@
-##
+# IDEAL-RAG: Instruction-driven Dual-standpoint Elicitation and Alignment Linking for Retrieval Augmented Generation
+
+## 論文
 
 原論文永久網址: [IDEAL-RAG: 用於檢索增強生成的指令驅動雙觀點萃取與對齊連結方法 DOI](https://hdl.handle.net/11296/5nqq3g)
 
