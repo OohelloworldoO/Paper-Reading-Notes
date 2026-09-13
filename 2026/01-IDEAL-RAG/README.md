@@ -7,6 +7,16 @@ RAG(retrieved-agumented generation)讓大型 LLM 能夠按需求引用最新的�
 此論文提出 IDEAL-RAG ，一個包含三個階段的指令驅動框架。模型首先明確回想潛在知識，接著讓內部知識與檢索來源各自建立完整觀點，最後在連結模組中交叉檢查這些觀點，產生可追蹤的推理說明。  
 整個過程不需要修改檢索器，也不需要新增人工標註。為了觀察網路內部的變化，新提出反事實敏感度分數 CSS(Counterfactual Sensitivity Score) 與既有的逐層參數知識分數 PKS(Parametric Knowledge Score) 結合，分析雜訊下「知識 FNN」路徑的行為，並顯示「先萃取、再平衡」的步驟可以降低幻覺風險。
 
+## Oral Presentation
+
+| Question                 | Answer |
+| :----------------------- | :----- |
+| 作者想解決甚麼?為何重要? |        |
+| 核心方法                 |        |
+| 關鍵結果                 |        |
+| 假設跟限制               |        |
+| my conclusion            |        |
+
 ## 問題
 
 1. 檢索文字包含雜訊或對抗修改意思?
