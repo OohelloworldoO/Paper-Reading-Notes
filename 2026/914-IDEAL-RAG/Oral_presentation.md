@@ -4,14 +4,14 @@
 實務上很難決定何時該相信記憶、何時相信檢索資訊。  
 有些方法抑制參數知識，幾乎完全依賴外部證據，但實際檢索情況不一定正確。
 
-## 此論文的方法
+## Introduction
 
 分兩步驟進行:
 
 1. Dual-Standpoint Generation 分別對內部(模型已知的內容)與外部資訊(檢索上下文)產生各別獨立觀點
 2. 用連結步驟協調，讓最終答案更透明且穩健
 
-## 方法圖解
+## Methodology
 
 ![](./images/Parametric%20Knowledge.png)
 
@@ -25,3 +25,15 @@ _模型記得，不代表「事實正確」_
 
 1. 各自立論:「依我原本知道的內容，答案是甚麼?」、「依文件內容，答案是甚麼?」
 2. 比較整合: 「兩邊是否一致?哪些理由支持?」
+
+### Dual-Source Standpoint Generation
+
+### Linked Rationale Generation
+
+## Algorithm
+
+## Experiments
+
+## Analysis
+
+## Conclusion
