@@ -26,13 +26,13 @@ LLM 缺點: 過去的 RAG 方法常把內部知識當成備援。實務上很難
 
 ## Oral Presentation
 
-| Question                 | Answer                                                                          |
-| :----------------------- | :------------------------------------------------------------------------------ |
-| 作者想解決甚麼?為何重要? | 此論文想解決 AI Hallucination、LLM 忽略自身已有的知識，而信心十足地給出錯誤答案 |
-| 核心方法                 | 先萃取(Extraction)、再整合 Internal、External Conclusion                        |
-| 關鍵結果                 |                                                                                 |
-| 假設跟限制               |                                                                                 |
-| My conclusion            |                                                                                 |
+| Question                 | Answer                                                                            |
+| :----------------------- | :-------------------------------------------------------------------------------- |
+| 作者想解決甚麼?為何重要? | 此論文想解決 AI Hallucination、LLM 忽略自身已有的知識，而信心十足地給出錯誤答案   |
+| 核心方法                 | 先萃取(Extraction)、再比較整合 Internal、External Parametric knowledge Conclusion |
+| 關鍵結果                 |                                                                                   |
+| 假設跟限制               | 在記憶錯誤、缺乏時仍然會做出錯誤判斷                                              |
+| My conclusion            |                                                                                   |
 
 ## 自我提問
 

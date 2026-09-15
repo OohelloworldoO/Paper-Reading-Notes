@@ -25,19 +25,3 @@ _模型記得，不代表「事實正確」_
 
 1. 各自立論:「依我原本知道的內容，答案是甚麼?」、「依文件內容，答案是甚麼?」
 2. 比較整合: 「兩邊是否一致?哪些理由支持?」
-
-<<<<<<< HEAD:2026/01-IDEAL-RAG/images/Oral_presentation.md
-##
-=======
-### Dual-Source Standpoint Generation
-
-### Linked Rationale Generation
-
-## Algorithm
-
-## Experiments
-
-## Analysis
-
-## Conclusion
->>>>>>> 38622dae10c953170e0047f1d9db3249c42431cf:2026/914-IDEAL-RAG/Oral_presentation.md
