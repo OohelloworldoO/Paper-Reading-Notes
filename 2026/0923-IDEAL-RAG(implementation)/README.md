@@ -1,9 +1,9 @@
 # road-map
 
 | Task                                                | State |
-| :-------------------------------------------------- | :---- |
-| IDEAL-RAG implementation                            |       |
+| :-------------------------------------------------- | :---: |
+| IDEAL-RAG implementation                            |   V   |
 | Algorithm & Mathematic                              |       |
-| Compare InstructRAG & IDEAL-RAG(implementation)     |       |
-| Applying RAG to retrieve judicial precedents        |       |
-| Front-end UI for RAG-based legal judgment retrieval |       |
+| Compare InstructRAG & IDEAL-RAG(implementation)     |   V   |
+| Applying RAG to retrieve judicial precedents        |   V   |
+| Front-end UI for RAG-based legal judgment retrieval |   V   |
