@@ -19,7 +19,7 @@ flowchart TD
 
 ## 每個工具在整套流程中做甚麼(通用概念圖)
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ```mermaid
 flowchart TD
