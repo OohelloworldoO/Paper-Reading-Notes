@@ -13,3 +13,20 @@ https://github.com/LBNL-ETA/EnergyPlus-MCP
 | Orchestration Layer(協調層)          | EnergyPlus Manager、核心設定模組                                                                             |
 | Tools Layer (工具層)                 | 模型設定與載入（9 個工具）；模型檢查（9 個）；模型修改（8 個）；模擬與結果（4 個）；伺服器管理與日誌（5 個） |
 | EnergyPlus Integration Layer(整合層) | 模擬引擎：EnergyPlus；檔案系統：IDF 檔、氣象檔                                                               |
+
+```mermaid
+flowchart TD
+    A["Host：Python 應用，可整合 LLM"] --> B["MCP Client"]
+    B -->|"MCP 協定：發送要求"| C
+
+    subgraph S["EnergyPlus-MCP Server"]
+        C["FastMCP：接收與分派"] --> D["對應工具：modify_lights"]
+        D --> E["EnergyPlusManager：協調操作"]
+        E --> F["LightsManager ＋ eppy：修改並儲存 IDF"]
+        F -->|"返回結果"| C
+    end
+
+    C -->|"MCP 協定：回傳結果"| B
+    B --> G["Host：讀回檔案並驗證"]
+
+```
