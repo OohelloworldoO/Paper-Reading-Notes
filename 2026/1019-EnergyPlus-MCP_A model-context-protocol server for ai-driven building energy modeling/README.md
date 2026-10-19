@@ -30,3 +30,16 @@ flowchart TD
     B --> G["Host：讀回檔案並驗證"]
 
 ```
+
+## 縮寫（Acronyms）
+
+| 縮寫 | 英文全名                                    | 中文                  |
+| :--- | :------------------------------------------ | :-------------------- |
+| AEC  | Architecture, Engineering, and Construction | 建築、工程與營建      |
+| API  | Application programming interface           | 應用程式介面          |
+| BEM  | Building energy modeling                    | 建築能耗建模          |
+| FMU  | Functional mockup unit                      | 功能模擬單元          |
+| HVAC | Heating, ventilation, air-conditioning      | 暖氣、通風與空調      |
+| IDE  | Integrated development environment          | 整合開發環境          |
+| IDF  | EnergyPlus input data file                  | EnergyPlus 輸入資料檔 |
+| MCP  | Model context protocol                      | 模型上下文協定        |
