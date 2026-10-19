@@ -1,6 +1,10 @@
 # EnergyPlus-MCP
 
-# Implementation of EnergyPlus-MCP in Author's Github
+## 動機
+
+讓AI應用透過標準化工具介面，去操作執行模擬建築模型並取得結果
+
+## Implementation of EnergyPlus-MCP in Author's Github
 
 https://github.com/LBNL-ETA/EnergyPlus-MCP
 
